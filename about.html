@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>University Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/jecrg logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()" ></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-------about us content-------->
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>A college is an educational institution that offers a variety of programs, including undergraduate degrees, 
+                vocational education, and more. Colleges can be part of a larger institution or stand alone, and they can be private
+                 or public. In the United States, the term "college" can also refer to a university's undergraduate program, a residential
+                  college, or a community college. 
+                <h2>Here are some things to know about college: </h2>
+               <h3> Education</h3>
+                <br>College can provide a strong base for a student's career, and can help them develop in-depth knowledge in their chosen field. 
+                <h3>Skills</h3>
+                <br>College can help students develop personal and professional skills, such as effective communication and time management. Extracurricular activities can help students develop leadership and teamwork skills. 
+                <h3>Cost</h3>
+                <br>College tuition and fees vary from school to school. In the 2023-2024 school year, the average cost of tuition and fees was $42,162 for private colleges, $23,630 for out-of-state students at public universities, and $10,662 for in-state residents at public schools. 
+                <h3>Environment</h3>
+                <br>Many colleges are environmentally progressive, with water fountains that have water bottle refill buttons and recycle bins. Some schools are even experimenting with new eco-technologies. </p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+            <img src="images/enthausiastic.webp">
+        </div>
+    </div>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------Footer------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>A College is an educational institution that oofers a variety of programs, including 
+        <br>undergraduate degrees,vocational education, and more</p>
+    <div class="icons">
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-twitter' ></i>
+        <i class='bx bxl-instagram' ></i>
+        <i class='bx bxl-linkedin' ></i>
+        <i class='bx bxl-whatsapp' ></i>
+    </div>
+    <p>Made with <i class='bx bxs-heart'></i> by Khwahish Singh</p>
+</section>
+
+
+
+<!--------Javascript for  Toggle Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-250px";
+        }
+    </script>
+
+
+</body>
+</html>

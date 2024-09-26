@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>University Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/jecrg logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()" ></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-------contact us-------->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.820747489452!2d75.8199374748905!3d26.781983265697388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc9763e6030f1%3A0x4137675e5cf54360!2sJECRC%20Foundation!5e0!3m2!1sen!2sin!4v1726404486130!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section>
+        <div class="contact-us">
+            <div class="row">
+            <div class="contact-col">
+                <div >
+                    <i class='bx bxs-home'></i>
+                    <span>
+                        <h5>Shri Ram Nagal via RIICO,Tonk Road, </h5>
+                        <p>Sitapura Jaipur,Rajasthan 302022</p>
+                    </span>
+                </div>
+                    <div>
+                        <i class='bx bxs-phone'></i>
+                        <span>
+                            <h5>+91 7424988589</h5>
+                            <p>Monday to Saturday , 8:30AM to 3:30PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class='bx bxs-envelope'></i>
+                        <span>
+                            <h5>khwahishsingh.cse27@jecrc.ac.in</h5>
+                            <p>Email us your query</p>
+                        </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+            <form action="form handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+            </div>
+        </div>
+    </section>
+   
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------Footer------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>A College is an educational institution that oofers a variety of programs, including 
+        <br>undergraduate degrees,vocational education, and more</p>
+    <div class="icons">
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-twitter' ></i>
+        <i class='bx bxl-instagram' ></i>
+        <i class='bx bxl-linkedin' ></i>
+        <i class='bx bxl-whatsapp' ></i>
+    </div>
+    <p>Made with <i class='bx bxs-heart'></i> by Khwahish Singh</p>
+</section>
+
+
+
+<!--------Javascript for  Toggle Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-250px";
+        }
+    </script>
+
+
+</body>
+</html>
